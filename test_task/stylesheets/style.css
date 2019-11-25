@@ -1,0 +1,169 @@
+/* line 5, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/style.scss */
+.nav_style {
+  background-color: #000000 !important;
+}
+/* line 6, ../sass/style.scss */
+.nav_style .navbar-toggler {
+  border-color: #36001f;
+}
+/* line 9, ../sass/style.scss */
+.nav_style .navbar-brand {
+  color: #ffffff;
+}
+/* line 11, ../sass/style.scss */
+.nav_style .navbar-brand img {
+  width: 100px;
+}
+/* line 16, ../sass/style.scss */
+.nav_style .nav-item a {
+  color: #ffffff;
+}
+/* line 20, ../sass/style.scss */
+.nav_style .side_nav {
+  padding-right: 0;
+}
+/* line 22, ../sass/style.scss */
+.nav_style .side_nav .justify-content-md-end {
+  padding-right: 20px;
+}
+/* line 25, ../sass/style.scss */
+.nav_style .side_nav .justify-content-md-end .cart_symbol img {
+  margin: 10px;
+}
+/* line 31, ../sass/style.scss */
+.nav_style .side_nav #line_bars {
+  float: right;
+}
+/* line 35, ../sass/style.scss */
+.nav_style .main_logo {
+  padding: 0;
+}
+
+/* line 40, ../sass/style.scss */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 44, ../sass/style.scss */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* line 57, ../sass/style.scss */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff !important;
+  display: block;
+}
+
+/* line 66, ../sass/style.scss */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* line 70, ../sass/style.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+}
+
+@media screen and (max-height: 450px) {
+  /* line 78, ../sass/style.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  /* line 81, ../sass/style.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-height: 450px) {
+  /* line 86, ../sass/style.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  /* line 89, ../sass/style.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
+}

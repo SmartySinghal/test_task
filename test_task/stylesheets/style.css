@@ -425,19 +425,20 @@ body {
   padding: 0;
   text-align: left;
   padding-left: 10px;
+  background: #ddd;
 }
-/* line 328, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .carousel_row .content_section h2 {
   padding: 15px 25px;
   font-size: 18px;
   font-family: monospace;
 }
-/* line 333, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .carousel_row .content_section p {
   padding: 10px 25px;
   font-size: 14px;
 }
-/* line 337, ../sass/style.scss */
+/* line 338, ../sass/style.scss */
 .carousel_row .content_section button {
   color: #131313;
   margin: 0px 0 20px 0;
@@ -451,7 +452,7 @@ body {
   margin-left: 25px;
 }
 
-/* line 352, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 #fetch_btn {
   color: #131313;
   margin: 20px 0 10px 0;
@@ -464,21 +465,21 @@ body {
   border: 0;
 }
 
-/* line 364, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 #myList {
   width: 100%;
   background: #fff;
   border-radius: 3px;
   margin-bottom: 10px;
 }
-/* line 369, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 #myList h2 {
   text-align: center;
   width: 100%;
   padding: 10px;
   color: #000;
 }
-/* line 375, ../sass/style.scss */
+/* line 376, ../sass/style.scss */
 #myList li {
   padding: 10px;
   border: 1px solid #aaa;

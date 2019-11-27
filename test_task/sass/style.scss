@@ -3,18 +3,10 @@
     background-color: #000000 !important;
     padding-right: 0;
     padding-left: 0;
-    .navbar-toggler {
-        border-color: #36001f;
-    }
     .navbar-brand {
         color: #ffffff;
         img {
             width: 100px;
-        }
-    }
-    .nav-item {
-        a {
-            color: #ffffff;
         }
     }
     .side_nav {
@@ -285,6 +277,9 @@ body {
 
 .zoom {
     transition: 0.5s;
+    img {
+        vertical-align: bottom;
+    }
 }
 
 .zoom:hover {
@@ -313,7 +308,6 @@ body {
     }
     .half_item {
         border: 1px solid #aaa;
-        ;
         &:hover {
             border: 1px solid #e88922;
         }

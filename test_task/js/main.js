@@ -29,6 +29,27 @@ function myFunction() {
 }
 
 
+
+
+function test() {
+    document.getElementById("popover_data").style.display = "block";
+}
+
+function close_overlay() {
+    document.getElementById("popover_data").style.display = "none";
+}
+
+function fetchData() {
+    var x = document.getElementById("txt-search");
+    var y = x.value;
+    console.log(x.value);
+
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(y);
+    node.appendChild(textnode);
+    document.getElementById("myList").appendChild(node);
+}
+
 $(document).ready(function() {
     var data = [{
         "id": "1",
@@ -123,22 +144,3 @@ $(document).ready(function() {
         $('#filter-records').html(output);
     })
 });
-
-function test() {
-    document.getElementById("popover_data").style.display = "block";
-}
-
-function close_overlay() {
-    document.getElementById("popover_data").style.display = "none";
-}
-
-function fetchData() {
-    var x = document.getElementById("txt-search");
-    var y = x.value;
-    console.log(x.value);
-
-    var node = document.createElement("LI");
-    var textnode = document.createTextNode(y);
-    node.appendChild(textnode);
-    document.getElementById("myList").appendChild(node);
-}

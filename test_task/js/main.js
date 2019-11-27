@@ -129,14 +129,14 @@ function test() {
 }
 
 function close_overlay() {
-    //document.getElementById("popover_data").style.display = "none";
+    document.getElementById("popover_data").style.display = "none";
 }
 
 function fetchData() {
     var x = document.getElementById("txt-search");
     var y = x.value;
     console.log(x.value);
-    // for(i=0;i<array.length;i++){
+
     var node = document.createElement("LI");
     var textnode = document.createTextNode(y);
     node.appendChild(textnode);
